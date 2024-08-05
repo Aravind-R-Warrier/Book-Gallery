@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+header{
+    background-color: aqua;
+color: white;
+    display: flex;
+justify-content: space-around;
+}
+
+header button{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+
+.banner{
+    background-image: url(https://png.pngtree.com/back_origin_pic/03/64/01/bd57f29a3d7b41d312ed285b295f87b7.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+section{
+    background-color: rgb(94, 227, 242);
+    padding-top: 10px;
+}
+section h1{
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.col{
+    background-color: rgb(117, 186, 232);
+    width: 300px;
+    height: 490px;
+    color: aliceblue;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+
+}
+img{
+    padding-top:9px ;
+    border-radius: 10px;
+    width: 280px;
+    height: 400px;
+}
+
+img:hover{
+    box-shadow: 2px 4px rgb(25, 23, 23) ;
+}
+section span{
+    color: blueviolet;
+}
+
+section button{
+    background-color: bisque;
+    width: 100px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+section button:hover{
+    background-color: rgb(152, 94, 94);
+}
+footer{
+    background-color:aqua;
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width:400px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    header{
+        width: 400px;
+        padding: 0px;
+        background-color: crimson;
+    }
+    nav{
+        margin: 0;
+        padding: 0;
+        background-color: blanchedalmond;
+    }
+    .row{
+        background-color: rgb(95, 68, 29);
+        width: 400px;
+        height: 1600px;
+        display: flex;
+flex-direction: column;
+
+    }
+    main{
+        width: 400px;
+        
+    }
+    .col-4{
+        height: 600px;
+        width: 500px;
+        border: 3px solid black;
+        margin-left: 28px;
+        background-color: rgb(117, 186, 232);
+
+    
+    }
+    img{
+        padding-top:9px ;
+        border-radius: 10px;
+        width: 300px;
+        height: 400px;
+    }
+    footer{
+        margin-top: 450px;
+
+    }section{
+        background-color: rgb(94, 227, 242);
+        padding-top: 10px;
+        width: 300px;
+        padding: 30px;
+        
+    }section button{
+        background-color: bisque;
+        width: 100px;
+        height: 25px;
+        margin: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        margin-left: 50px;
+    }
+}
+
